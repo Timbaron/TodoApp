@@ -38,3 +38,29 @@ code {
   color: #333;
   padding-top: 15px;
 }
+
+input{
+  width: 60%;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  border-bottom: 2px solid #333;
+}
+input:focus{
+  border-bottom: 2px solid #333;
+}
+
+.button {
+  color: #fff;
+  width: 20%;
+  border-radius: 9px;
+  background: #D3959B;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #BFE6BA, #D3959B);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #BFE6BA, #D3959B);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
