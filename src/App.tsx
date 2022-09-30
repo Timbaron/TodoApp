@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import Form from './components/form';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="container">
+      <h3 className="text-center text-xl title">Todo wey make</h3>
+      <Form />
+    </div>
   );
 }
 
